@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(2, 6, 61);
+    /* margin: 0; */
+}
+h1, h2, p {
+    margin: 0;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.desc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card {
+    width: 800px;
+    height: 700px;
+    /* dashed - пунктир, solid - сплошной */
+    border: 10px dashed rgb(10, 13, 204);
+    padding: 30px;
+    background-color: rgb(188, 245, 247);
+    margin-bottom: 40px;
+}
+/*Если хотим в одну строку */
+/* .list {
+    
+    display: flex;
+    gap: 30px;
+} */
